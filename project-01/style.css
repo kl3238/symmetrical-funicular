@@ -49,6 +49,7 @@ h1 {
   font-size: 2.4em;
   text-align: center;
   color:lightgrey;
+  
 }
 
 p {
@@ -67,8 +68,8 @@ h2{
   color: darkgrey;
   font-family: 'Open Sans', sans-serif;
   font-style: light ;
-  font-size: 14px;
-  line-height: 0.5em;
+  font-size: 15px;
+  line-height:1em;
   padding: 8px 0;
   text-align: center;
   padding:2em;
@@ -102,8 +103,7 @@ h6{
 
   font-family: 'Open Sans', sans-serif;
   font-style: light;
-  
-  
+  padding: 0 0 0 0;
 }
 
 
@@ -179,7 +179,7 @@ color: #000000;
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
   transition-delay: 0.2s;
-  margin: 0 10px 0 0;
+  margin: 10px 10px 0 0;
   font-size: 4px;
   
   }
@@ -260,21 +260,36 @@ color: #000000;
 
   @media (max-width: 960px) {
     .flex-container {
-      background: green;
+      background: lightcyan;
     }
   
     main {
       display: flex;
       flex-direction: column;
+      background: lightcyan;
     }
-  
+    
+    header{
+      display: flex;
+      flex-direction: column;
+      background: lightcyan;
+    
+      }
+  .container{
+       display: flex;
+      flex-direction: column;
+      background: lightcyan;
+    
+
+  }
     .column-wrapper {
       display: flex;
       flex-direction: column;
     }
   
-    .left-column, .right-column {
-      width: 100%;
+    .column {
+      width: 50%;
+      height: 50%;
       flex-direction: row;
       display:flex;
     }
@@ -283,7 +298,7 @@ color: #000000;
   
   @media (max-width: 450px) {
     .flex-container {
-      background: orange;
+      background: lightgoldenrodyellow;
     }
   
     main {
