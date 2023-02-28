@@ -104,6 +104,14 @@ h6{
 
   font-family: 'Open Sans', sans-serif;
   font-style: light;
+  
+  text-align: center;
+}
+
+h7{ 
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: light;
   padding: 12px 0 0 0;
   text-align: center;
 }
@@ -131,7 +139,7 @@ h6{
     justify-content:space-around;
     background: white;
     margin:6px;
-    line-height:4px;
+    line-height:8px;
     list-style-type: none;
   }
   
@@ -140,7 +148,7 @@ h6{
   a {
     color:black;
     text-decoration: none;
-    font-size: 4px;
+    font-size: 8px;
   }
 
  
@@ -182,7 +190,7 @@ color: #000000;
   transition-timing-function: ease-in;
   transition-delay: 0.2s;
   margin: 10px 10px 0 0;
-  font-size: 4px;
+  font-size: 8px;
   
   }
   .buttona:hover{
@@ -190,7 +198,7 @@ color: #000000;
     color: white;
     border:1px solid purple;
   border-radius: 8px;
-  font-size: 4px;
+  font-size: 8px;
     }
     
 
