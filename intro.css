@@ -32,6 +32,7 @@
   
     footer {
       padding: 5px;
+   
       border: 1px solid white;
       color: #141414;
       }
@@ -44,13 +45,34 @@
     height: 100%;
     padding: 20px;
   }
+
+  .column-wrapper {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+  }
   
+
+    .left-column {
+      width: 30%;
+      flex-direction: column;
+      display:flex;
+      padding-right: 20px;
+
+    }
+  .right-column {
+        width: 100%;
+        flex-direction: column;
+        display:flex;
+      }
+    
+ 
   
   h1 {
     text-transform: capitalize;
     font-size: 2.4em;
     text-align: center;
     color:lightgrey;
+    padding: 0 0 20px 0;
     
   }
   
@@ -62,6 +84,14 @@
     
   }
   
+  h4 {
+  
+    font-size: 0.5em;
+    font-style: light;
+    color:grey;
+    text-align: center;
+    
+  }
 
   
 ul {
@@ -71,22 +101,32 @@ ul {
   margin:6px;
   line-height:40px;
   padding: 10px;
-  list-style-type: none;
+ 
+  text-align: left;
   
 }
+
 li {
+    display: flex;
     color:white;
-    text-decoration: none;
+    
     font-size: 4px;
     line-height: 30px;
     padding: 0 20px 0 0 ;
 
   }
-
-.fa-solid{
-    color: white;
+ p {
+    display: flex;
+    color:white;
+    text-decoration: none;
+    font-size: 4px;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px 30px 30px 30px ;
+   
 
   }
+
   
   .image img {
     width: 100%;
@@ -96,27 +136,7 @@ li {
     
   }
   
-  .column-wrapper {
-    display: flex;
-  }
-  .column{
-    padding: 20px;
-   
-  }
-  
-    .left-column {
-      width: 20%;
-      flex-direction: row;
-      display:flex;
-    }
-
-  .right-column {
-        width: 80%;
-        flex-direction: row;
-        display:flex;
-      }
-  
-  
+ 
 
   
   p {
