@@ -71,6 +71,7 @@ ul {
   margin:6px;
   line-height:40px;
   padding: 10px;
+  list-style-type: none;
   
 }
 li {
@@ -78,6 +79,12 @@ li {
     text-decoration: none;
     font-size: 4px;
     line-height: 30px;
+    padding: 0 20px 0 0 ;
+
+  }
+
+.fa-solid{
+    color: white;
 
   }
   
@@ -98,7 +105,7 @@ li {
   }
   
     .left-column {
-      width: 10%;
+      width: 20%;
       flex-direction: row;
       display:flex;
     }
