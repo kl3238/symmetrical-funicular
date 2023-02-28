@@ -78,7 +78,7 @@ li {
     text-decoration: none;
     font-size: 4px;
     line-height: 30px;
-    
+
   }
   
   .image img {
@@ -94,8 +94,9 @@ li {
   }
   .column{
     padding: 20px;
-    border
+   
   }
+  
     .left-column {
       width: 10%;
       flex-direction: row;
