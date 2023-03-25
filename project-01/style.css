@@ -270,7 +270,7 @@ color: #000000;
 
   @media (max-width: 960px) {
     .flex-container {
-      background: lightcyan;
+      background: lightblue;
     }
   
     main {
@@ -288,7 +288,7 @@ color: #000000;
   .container{
        display: flex;
       flex-direction: column;
-      background: lightcyan;
+      background: lightblue;
     
 
   }
