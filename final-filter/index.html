@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filter Flowers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <header>
+    <h1>Pick your dishes for today!</h1>
+    <h2>Input what material you have, and then get your recommdenation from AI</h2>
+     
+  </header>
+
+  <header2>
+    
+    <h2> <i class="fa-solid fa-check"></i> Your Choice </h2>
+     
+      <div class="column-wrapper">
+
+
+      <div class="label">
+       
+        <label class="selectedlabel" data-filter="Vegetable"style="display: none;">Vegetable</label>
+        <label class="selectedlabel" data-filter="Beans" style="display: none;">Beans</label>
+        <label class="selectedlabel" data-filter="Mushrooms" style="display: none;">Mushrooms</label>
+        <label class="selectedlabel" data-filter="Roots" style="display: none;">Roots</label>
+        <label class="selectedlabel" data-filter="Leaves" style="display: none;">Leaves</label>
+  
+  
+        <label class="selectedlabel" data-filter="Meat" style="display: none;">Meat</label>
+        <label class="selectedlabel" data-filter="Pork" style="display: none;">Pork</label>
+        <blabel class="selectedlabel" data-filter="Chicken" style="display: none;">Chicken</label>
+        <blabel class="selectedlabel" data-filter="Duck" style="display: none;">Duck</label>
+        
+        <label class="selectedlabel" data-filter="Other" style="display: none;">Other</label>
+        <label class="selectedlabel" data-filter="Tofu" style="display: none;">Tofu</label>
+        <label class="selectedlabel" data-filter="Lemon" style="display: none;">Lemon</label>
+        <label class="selectedlabel" data-filter="Curry" style="display: none;">Curry</label> 
+
+        <label class="selectedlabel" data-filter="Ricee" style="display: none;">Rice</label>
+        <label class="selectedlabel" data-filter="Seafood" style="display: none;">Seafood</label>
+        <label class="selectedlabel" data-filter="Crab" style="display: none;">Crab</label>
+        <label class="selectedlabel" data-filter="Shrimp" style="display: none;">Shrimp</label> 
+        <label class="selectedlabel" data-filter="Fish" style="display: none;">Fish</label>   
+        
+        <label class="selectedlabel" data-filter="Ingredients" style="display: none;">Ingredients</label>
+        <label class="selectedlabel" data-filter="Chives" style="display: none;">Chives</label>
+        <label class="selectedlabel" data-filter="RedPepper" style="display: none;">RedPepper</label>
+        <label class="selectedlabel" data-filter="BirdEyeChillies" style="display: none;">BirdEyeChillies</label> 
+        <label class="selectedlabel" data-filter="Coriander" style="display: none;">Coriander</label> 
+        <label class="selectedlabel" data-filter="GreenPepper" style="display: none;">GreenPepper</label>
+
+
+
+
+
+        
+      </div>
+
+    </div>
+    </header2>
+  
+
+<main>
+  
+
+
+  <div class="column-wrapper">
+
+    <nav>
+      <div class="nav">
+        <LogosContainer>
+          <Logo src={iconHome} alt="home" />
+          <Logo src={iconGlobe} alt="globe" />
+          <Logo src={iconArchive} alt="archive" />
+          <Logo src={iconPieChart} alt="pie-chart" />
+          <Logo src={iconDollarSign} alt="dollar" />
+          <Logo src={iconDatabase} alt="database" />
+          <Logo src={iconNavigation} alt="navigation" />
+        </LogosContainer>
+      </div>
+    
+    </nav>
+
+    <div class="column-left">
+    <!-- Filters -->
+    <div class="filters">
+      <h2>Filters</h2>
+     
+      <button class="filter-btn" data-filter="Vegetable">Vegetable</button>
+      <button class="filter-btn" data-filter="Beans">Beans</button>
+      <button class="filter-btn" data-filter="Mushrooms">Mushrooms</button>
+      <button class="filter-btn" data-filter="Roots">Roots</button>
+      <button class="filter-btn" data-filter="Leaves">Leaves</button>
+
+
+      <button class="filter-btn" data-filter="Meat">Meat</button>
+      <button class="filter-btn" data-filter="Pork">Pork</button>
+      <button class="filter-btn" data-filter="Chicken">Chicken</button>
+      <button class="filter-btn" data-filter="Duck">Duck</button>
+
+      <button class="filter-btn" data-filter="Other">Other</button>
+      <button class="filter-btn" data-filter="Tofu">Tofu</button>
+      <button class="filter-btn" data-filter="Lemon">Lemon</button>
+      <button class="filter-btn" data-filter="Curry">Curry</button>
+
+      <button class="filter-btn" data-filter="Ricee">Rice</button>
+      <button class="filter-btn" data-filter="Seafood">Seafood</button>
+      <button class="filter-btn" data-filter="Crab">Crab</button>
+      <button class="filter-btn" data-filter="Shrimp">Shrimp</button>
+      <button class="filter-btn" data-filter="Fish">Fish</button>
+
+      <button class="filter-btn" data-filter="Ingredients">Ingredients</button>
+      <button class="filter-btn" data-filter="Chives">Chives</button>
+      <button class="filter-btn" data-filter="RedPepper">RedPepper</button>
+      <button class="filter-btn" data-filter="BirdEyeChillies">BirdEyeChillies</button>
+      <button class="filter-btn" data-filter="Coriander">Coriander</button>
+      <button class="filter-btn" data-filter="GreenPepper">GreenPepper</button>
+      <button class="filter-btn active" data-filter="all">All</button>
+      
+    </div>
+  </div>
+
+    <div class="column-right">
+    <!-- Results -->
+    <div class="list">
+      <h2>Flowers</h2>
+      <ul></ul>
+    </div>
+  </div>
+
+
+</div>
+</main>
+
+<footer>
+  <p></p>
+    <p>Hometaste, Design for better taste, 27 February 2023</p>
+    <!-- <p>Made with &#10084; in New York City.</p> -->
+  </footer>
+</body>
+
+  <script src="main.js"></script>
+
+
+
+</html>
