@@ -81,7 +81,8 @@
     font-size: 1.2em;
     font-style: light;
     color:grey;
-    
+    padding: 10px;
+    margin: 6px;
   }
   
   h4 {
@@ -104,6 +105,18 @@ ul {
  
   text-align: left;
   
+}
+
+a {
+  color: #0000FF;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:active {
+  color: #FF0000;
 }
 
 li {

@@ -1,0 +1,106 @@
+body {
+    margin: 3em;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    line-height: 1.25;
+    margin: 2em 0 0;
+  }
+  p {
+    margin: 0.5em 0;
+  }
+  
+  #switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #switcher li {
+   
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+  
+    
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border: none;
+   
+  }
+  
+  /* button colors */
+  
+  #grayButton {
+    background: linear-gradient(to right, black, #FFCC66);
+    width: 100px;
+    border: none;
+  }
+  
+  #whiteButton {
+    background: linear-gradient(to right, #FFFFFF, #FFFFCC);
+  }
+  
+  #blueButton {
+    background: linear-gradient(to right, #6699FF, #CCCCFF);
+  }
+  
+  #yellowButton {
+    background: linear-gradient(to right, #FFFF66, #FFCC66);
+  }
+  
+  #switcher li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 0 2px gray;
+  }
+  
+  #switcher li:active {
+    background-color: #999;
+    border: none;
+    box-shadow: none;
+  }
+  
+  /* background colors */
+  
+  .gray-theme {
+    background-color: red;
+  }
+  
+  .white-theme {
+    background-color: white;
+  }
+  
+  .yellow-theme {
+    background-color: yellow;
+  }
+  
+  .blue-theme {
+    background-color: blue;
+    /*   change text to white */
+    color: white;
+  }
+  
+

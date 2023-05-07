@@ -19,7 +19,13 @@ body{
       }    
 nav{
      height: 60px;
+     display: block;
     }
+nav:hover {
+    
+        background-color: #DBB825;;
+      }
+
 .container{
     display: flex;
     justify-content: space-around;
