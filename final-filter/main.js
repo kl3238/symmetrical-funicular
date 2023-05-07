@@ -4,7 +4,7 @@ console.log('this works')
 
 const dishes = [
 
-  /*
+  
         {
             image: "https://user-images.githubusercontent.com/113488749/236106608-a92a9dd4-905c-47e1-a7ff-37cd730e3f5c.png",
             name: "Stewed Pork with Cabbage",
@@ -133,7 +133,7 @@ const dishes = [
         },
         {
             image: "https://user-images.githubusercontent.com/113488749/236106620-96a03c07-2151-4160-ad49-e30a02452b02.png",
-            name: "Saut\ufffd\ufffded Chicken with Snow Peas",
+            name: "Stewed Chicken with Snow Peas",
             IsVegetable: "Vegetable",
             Vegetable1: "Beans",
             Vegetable2: "Roots",
@@ -208,18 +208,18 @@ const dishes = [
             name: "Fried Noodles with Vegetables",
             IsVegetable: "Vegetable",
             Vegetable1: "Roots",
-            Vegetable2: "Leaves",
+            Vegetable2: "No",
             Vegetable3: "Beans",
             Meat: "Chicken",
             IsMeat: "Meat",
-            Other: "Tofu",
-            IsOther: "Other",
+            Other: "No",
+            IsOther: "No",
             Ricee: "Noodles",
             IsRicee: "Rice",
             Seafood: "No",
             IsSeafood: "No",
-            Ingredients: "RedPepper",
-            IsIngredients: "Ingredients"
+            Ingredients: "No",
+            IsIngredients: "No"
         },
         {
             image: "https://user-images.githubusercontent.com/113488749/236106626-237ea748-e322-4b2a-b06f-7a43e43498a1.png",
@@ -239,7 +239,7 @@ const dishes = [
             Ingredients: "Chives",
             IsIngredients: "Ingredients"
         },
-        /*
+        
         {
             image: "https://user-images.githubusercontent.com/113488749/236106628-1d4045f8-f96b-4b1b-ae0b-47d74fe9985c.png",
             name: "Jajang Noodles",
@@ -353,14 +353,14 @@ const dishes = [
             name: "Maoxuewang",
             IsVegetable: "Vegetable",
             Vegetable1: "Leaves",
-            Vegetable2: "Roots",
+            Vegetable2: "No",
             Vegetable3: "Mushrooms",
             Meat: "Duck",
             IsMeat: "Meat",
             Other: "Tofu",
             IsOther: "Other",
-            Ricee: "Noodles",
-            IsRicee: "Rice",
+            Ricee: "No",
+            IsRicee: "No",
             Seafood: "No",
             IsSeafood: "No",
             Ingredients: "Coriander",
@@ -510,6 +510,7 @@ const dishes = [
             Ingredients: "BirdEyeChillies",
             IsIngredients: "Ingredients"
         },
+       
         {
             image: "https://user-images.githubusercontent.com/113488749/236106648-f469dde6-940a-4755-90a3-740e11499591.png",
             name: "Fried Shrimp with Corn",
@@ -618,6 +619,7 @@ const dishes = [
             Ingredients: "No",
             IsIngredients: "No"
         },
+         
         {
             image: "https://user-images.githubusercontent.com/113488749/236106656-ab9ca394-8afa-44fe-8c3f-30f0060f3355.png",
             name: "Tossed Mung Clear Noodles in Sauce",
@@ -672,7 +674,7 @@ const dishes = [
             Ingredients: "No",
             IsIngredients: "No"
         },
-        /*
+       
         {
             image: "https://user-images.githubusercontent.com/113488749/236106661-494c4530-3b27-41fc-89a7-55f9d4cf67dd.png",
             name: "Stir-fried Chicken Gizzard",
@@ -728,6 +730,7 @@ const dishes = [
             Ingredients: "BirdEyeChillies",
             IsIngredients: "Ingredients"
         },
+         
         {
             image: "https://user-images.githubusercontent.com/113488749/236106664-f5227aca-c84f-492c-92cf-db952e913adb.png",
             name: "Diced Chicken With Spicy Chilies",
@@ -854,6 +857,7 @@ const dishes = [
             Ingredients: "GreenPepper",
             IsIngredients: "Ingredients"
         },
+        
         {
             image: "https://user-images.githubusercontent.com/113488749/236106675-6a86a331-db25-4923-8f97-c14053c696b1.png",
             name: "Spicy Hot Pot",
@@ -926,6 +930,7 @@ const dishes = [
             Ingredients: "Coriander",
             IsIngredients: "Ingredients"
         },
+        
         {
             image: "https://user-images.githubusercontent.com/113488749/236106681-444b6b20-9aa5-4aae-ab2e-eb5771f85c1e.png",
             name: "Egg Fried Rice",
@@ -934,7 +939,7 @@ const dishes = [
             Vegetable2: "Mushrooms",
             Vegetable3: "No",
             Meat: "No",
-            IsMeat: "",
+            IsMeat: "No",
             Other: "Egg",
             IsOther: "Other",
             Ricee: "Rice",
@@ -944,6 +949,7 @@ const dishes = [
             Ingredients: "No",
             IsIngredients: "No"
         },
+       
         {
             image: "https://user-images.githubusercontent.com/113488749/236106682-3714244a-ca2a-4113-be13-3c9835b79673.png",
             name: "Griddle Pork Intestines",
@@ -962,6 +968,7 @@ const dishes = [
             Ingredients: "BirdEyeChillies",
             IsIngredients: "Ingredients"
         },
+        
         {
             image: "https://user-images.githubusercontent.com/113488749/236106683-352f1561-361c-46ec-91e0-10a4b82e44a8.png",
             name: "Sauerkraut Fish",
@@ -1142,6 +1149,7 @@ const dishes = [
             Ingredients: "Coriander",
             IsIngredients: "Ingredients"
         },
+        
         {
             image: "https://user-images.githubusercontent.com/113488749/236106696-16e1e6c5-b865-4a0f-b4fa-fe0a1d6e75df.png",
             name: "Lanzhou Stretched Noodles",
@@ -1196,7 +1204,7 @@ const dishes = [
             Ingredients: "No",
             IsIngredients: "No"
         },
-        */
+        
         {
             image: "https://user-images.githubusercontent.com/113488749/236106699-26e72b3b-1053-4af6-825d-5f55cef8d4d3.png",
             name: "Liuzhou river snails rice noodle",
@@ -1360,6 +1368,25 @@ const dishes = [
             IsIngredients: "No"
         },
     
+        {
+            image: "https://user-images.githubusercontent.com/113488749/236647902-eba87f8f-5a00-4bfc-a0ac-fe009ce44248.png",
+            name: "Casserole Porridge",
+            IsVegetable: "Vegetable",
+            Vegetable1: "Beans",
+            Vegetable2: "Leaves",
+            Vegetable3: "No",
+            Meat: "No",
+            IsMeat: "No",
+            Other: "No",
+            IsOther: "No",
+            Ricee: "No",
+            IsRicee: "No",
+            Seafood: "Shrimp",
+            IsSeafood: "Seafood",
+            Ingredients: "No",
+            IsIngredients: "No"
+        },
+
     ];
     
 
@@ -1377,21 +1404,9 @@ function renderDishesToPage(results) {
     // create the list item
     let listItem = document.createElement('li');
 
-
-
-
     //* add a class to each item of the results
     listItem.classList.add('card', results[i].IsVegetable, results[i].Vegetable1,results[i].Vegetable2,results[i].Vegetable3,results[i].IsMeat,results[i].Meat,results[i].Other,results[i].IsOther,results[i].Ricee,results[i].IsRicee,results[i].Seafood,results[i].IsSeafood,results[i].Ingredients,results[i].IsIngredients) // red
-    
-    
-
-
-
-
-
-
-    
-    
+   
     // add dish name
     let title = document.createElement('h3')
     title.textContent = results[i].name 
@@ -1578,17 +1593,22 @@ let labels = document.querySelectorAll('.label .selectedlabel');
 
 console.log(labels.length);
 
-
-for (let i = 0; i < 14; i++){
+let counter = 0;
+for (let i = 0; i < 28; i++){
+    
   if( filterValues.includes(labels[i].getAttribute("data-filter"))){
+
    labels[i].style.display='inline';
+   console.log(labels[i].getAttribute("data-filter") + labels[i].style.display);
+   counter++;
   
   }else{
    labels[i].style.display='none';
-  
   }
   
  }
+
+ console.log(counter);
 
 
 }
@@ -1606,10 +1626,10 @@ function filterFn(event) {
     });
 
     
-
+    console.log(cards.length);
 
     // 遍历所有卡片元素
-    for (let i = 0; i < 14; i++) {
+    for (let i = 0; i < cards.length; i++) {
       // 如果卡片包含所有过滤值或没有激活的按钮（显示所有）
       if (
         filterValues.every((value) => cards[i].classList.contains(value)) ||
@@ -1626,3 +1646,4 @@ function filterFn(event) {
 }
 filterBtns.addEventListener("click", filterFn);
 filterBtns.addEventListener("click", showlabel);
+

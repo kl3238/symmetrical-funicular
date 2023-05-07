@@ -1,20 +1,41 @@
+body{
+    overflow: hidden;
+
+}
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;  }
 
+
+    
 .logo{
+    position: absolute;
     display: block; 
-    width: 100px; 
+    width: 200px; 
     height: auto; 
     
     animation: rotate 1s linear infinite; 
  
   
   }
+
+      
+.text{
+
+  position:static;
+ 
+  width: 205px; 
+  align-items: center;
+
+
+
+}
   
   
+  
+
 
   
   @keyframes rotate {
@@ -36,3 +57,5 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+

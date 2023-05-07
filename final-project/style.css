@@ -61,6 +61,12 @@ header {
         float: right;
       }
 
+      h7{
+        font-size: 8px;
+         line-height: 1.4em;
+        padding-bottom: 1em;
+      }
+
 .flex-container{
   display: flex;
   flex-direction: column;
@@ -150,7 +156,7 @@ section{
       /* How many items we want to see on screen at once */
       --scrolling-gallery-items-visible: 8;
       /* How many items are to scroll */
-      --scrolling-gallery-items-total: 6;
+      --scrolling-gallery-items-total: 20;
       margin-top: 1.2em;
       overflow: hidden;
       will-change: transform;

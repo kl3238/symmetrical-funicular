@@ -15,6 +15,7 @@ body{
   margin:0px;
   padding:0px;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 header {
@@ -110,16 +111,17 @@ section{
 
     .scroller__wrapper{
       /* How long one slide is visible on screen (from entering screen to leaving it) */
-      --scrolling-gallery-item-duration: 7s;
+      --scrolling-gallery-item-duration: 5s;
       /* How many items we want to see on screen at once */
-      --scrolling-gallery-items-visible: 8;
+      --scrolling-gallery-items-visible: 11;
       /* How many items are to scroll */
-      --scrolling-gallery-items-total: 6;
+      --scrolling-gallery-items-total: 10;
       margin-top: 1.2em;
       overflow: hidden;
       will-change: transform;
       margin:0px;
       padding:3px;
+      height: max-content;
      
     }
 
@@ -152,8 +154,8 @@ section{
     
     .scroller img {
       display: block;
-      height: 200px;
-      object-fit: cover;
+      height: auto;
+      object-fit:contain;
       object-position: center;
       width: 100%;
     }
