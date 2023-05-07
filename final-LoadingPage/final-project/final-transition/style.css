@@ -34,7 +34,7 @@ header {
       text-transform: capitalize;
       font-size: 2em;
       text-align:left;
-      color:white;
+      color:black;
       
     }
 
@@ -67,32 +67,18 @@ header {
   margin: 100px auto 0;
 }    
 
-/*
-#nav {
+
+.nav {
 position: absolute;
-top: 200px;
-left: 20px;
-}
-*/
-
-#nav a {
-
-display: block;
-line-height: 120px;
-width: 110px;
-transform: rotate(-90deg);
-transition: .3s;
-font-weight: bold;
-color: var(--text-color);
-text-align:justify;
-text-size-adjust: auto ;
-
+margin-top: 300px;
+margin-left: 40px;
+align-items: center;
+text-decoration: solid;
+width: 100vh;
 }
 
-#nav a:hover {
-transform:initial;
-color: #DBB825;
-}
+
+
 
 
 
