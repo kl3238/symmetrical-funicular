@@ -84,7 +84,9 @@ header {
     display:flex;
   }
 
-
+  .filter-link {
+    color: yellow;
+  }
 
 .logo{
  
